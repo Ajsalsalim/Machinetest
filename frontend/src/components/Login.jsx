@@ -5,12 +5,7 @@ import { Navigate, useNavigate } from 'react-router-dom'
 
 const Login = () => {
  
-  const token = localStorage.getItem("token");
-  console.log(token);
-      if(token){
-       return <Navigate to={"/home"}/>
-        
-      }
+  
                 
        const [email,setEmail]= useState("");
        const [password,setPassword]= useState("");
