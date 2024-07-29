@@ -1,0 +1,12 @@
+.cards{
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+  }
+
+  .card {
+    flex: 0 1 calc(25% - 20px); /* Calculate width for three cards with gap */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+  }
